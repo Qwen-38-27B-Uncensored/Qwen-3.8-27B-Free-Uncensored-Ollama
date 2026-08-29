@@ -1,0 +1,18 @@
+Qwen 3.8 27B Uncensored Chat - Usage
+====================================
+
+QUICK START
+1. python ollama/fetch_weights.py --quant q4
+   or: ollama pull qwen3.8:27b
+2. Qwen38Uncensored.exe models/qwen3.8-27b-Q4_K_M.gguf
+3. chat locally - no qwen api key
+
+BACKENDS
+- GGUF / llama.cpp (default)
+- Ollama: python ollama/ollama_boot.py then pick Ollama in settings
+- LM Studio: point the app at the same GGUF folder
+
+TIPS
+- /quit exits
+- coder preset lives in config/sampling.json
+- lower gpu_layers in config/settings.json on OOM

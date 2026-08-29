@@ -1,0 +1,13 @@
+Qwen 3.8 27B requirements (local)
+=================================
+
+Q4_K_M  ~16 GB file   18 GB RAM or 16 GB VRAM
+Q5_K_M  ~20 GB file   24 GB RAM
+Q8_0    ~28 GB file   32 GB RAM
+
+CPU-only works on 32 GB machines; expect slower tokens.
+RTX 3090 / 4090 24 GB is the comfortable GPU path.
+Disk: keep 30 GB free for one quant plus cache.
+
+This is the dense 27B, not qwen 3.8 max. Benchmarks for
+qwen 3.8 27b sit in the README FAQ.

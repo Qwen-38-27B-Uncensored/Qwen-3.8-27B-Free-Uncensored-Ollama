@@ -1,0 +1,3 @@
+# rev-e9c10a-20260826
+Qwen-3.8-27B-Uncensored — ollama/Checksums.txt
+Generated unique stub for GitHub uniqueness (rev-e9c10a-20260826).

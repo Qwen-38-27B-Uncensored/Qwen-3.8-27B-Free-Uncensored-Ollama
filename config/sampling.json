@@ -1,0 +1,8 @@
+{
+  "presets": {
+    "chat": { "temperature": 0.7, "top_p": 0.9, "repeat_penalty": 1.05 },
+    "coder": { "temperature": 0.2, "top_p": 0.95, "repeat_penalty": 1.08 },
+    "uncensored": { "temperature": 0.85, "top_p": 0.95, "repeat_penalty": 1.02 }
+  },
+  "stop": ["<|im_end|>", "<|endoftext|>"]
+}
